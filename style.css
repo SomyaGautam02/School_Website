@@ -67,7 +67,7 @@ span{
     padding: 2.5%;
     color: orangered;
     border-radius: 50%;
-    margin: 0% 2%;
+    margin: 0% 4%;
 
 }
 
@@ -175,7 +175,9 @@ p{
     width: 80%;
     padding: 1% 2%;
     height: 15rem;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;}
+   padding-left: 4%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
 
 #inform .formtext{
     color: #6b7070;
@@ -215,9 +217,14 @@ input[type=submit]{
     background-color: orangered;
     border-radius: 30%;
     border: none;
-    padding: .6rem;
+    padding: .4rem;
     width: 5rem;
     margin-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;    
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+
 
 }
 
@@ -252,8 +259,8 @@ input[type=submit]{
         border-radius: 2rem;
         height: 2rem;
         width: 80%;
-        padding: 1% 2%;
         margin-top: 5%;
+        padding-left: 5%;
      
     }
     
@@ -264,6 +271,8 @@ input[type=submit]{
         padding: 1% 2%;
         height: 12rem;
         margin-top: 5%;
+        padding-left: 10%;
+
     }
     
     .input_box textarea:focus ~ label,
@@ -315,8 +324,7 @@ input[type=submit]{
         width: 3.5rem;
         margin-left: 4%;
         font-size: .8rem;
-
-    
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;    
     }
 }
 
@@ -326,12 +334,22 @@ input[type=submit]{
     :root{
         --heading-font: 2rem;
         --headingh2-font: 1.8rem;
-        --i-font:1.25rem;
-        --infoheading-font: 1rem;
-        --ctext-font: 0.7rem;
+        --i-font:1.4rem;
+        --infoheading-font: 1.2rem;
+        --ctext-font: 1rem;
 
     }
 
+    .input_box textarea{
+        border: .1rem solid gray;
+        border-radius: 2rem;
+        height: 9vh;
+        width: 80%;
+        padding: 1% 2%;
+        height: 15rem;
+        padding-left: 8%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
 
 }
 
